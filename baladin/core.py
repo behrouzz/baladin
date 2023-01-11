@@ -61,7 +61,7 @@ class Aladin:
         tmp = ''
         for i in range(len(markers)):
             tmp = tmp + f'marker{i+1}, '
-        self.markers = self.markers + f"\tmarkerLayer.addSources([{tmp}]);\n"
+        self.__markers = self.__markers + f"\tmarkerLayer.addSources([{tmp}]);\n"
         
 
     def add_simbad(self, target=None, radius=None):

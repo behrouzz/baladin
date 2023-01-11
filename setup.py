@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="baladin",
-    version="0.0.1",
+    version="0.0.2",
     author="Behrouz Safari",
     author_email="behrouz.safari@gmail.com",
     description="Pythonic tool to work with Aladin Lite",
